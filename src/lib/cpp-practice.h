@@ -7,8 +7,10 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 
 bool isMonotonic(std::vector<int>& arr);
 int factorial(int n);
+bool areBracketsBalanced(std::string expr);
 
 #endif //CPP_PRACTICE_H
