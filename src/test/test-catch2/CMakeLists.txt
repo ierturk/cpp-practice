@@ -1,4 +1,4 @@
-project(cpp-practice-test)
+project(test-catch2)
 
 include(FetchContent)
 FetchContent_Declare(

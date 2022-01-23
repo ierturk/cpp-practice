@@ -3,8 +3,8 @@
 //
 
 #define CATCH_CONFIG_MAIN
-#include <catch2/catch.hpp>
-#include "../lib/cpp-practice.h"
+#include "catch2/catch.hpp"
+#include "../../lib/cpp-practice.h"
 
 TEST_CASE("Simple Factorial Test") {
     REQUIRE(factorial( 1) == 1);
