@@ -1,7 +1,6 @@
 project(cpp-practice-app)
 
 set(SOURCE_FILES
-        # monotonic-array.cpp
         main.cpp
 )
 

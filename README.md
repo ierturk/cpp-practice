@@ -3,6 +3,7 @@ This repo has `C++` example practices, and tests results by `Catch2` Test Librar
 * Monotonic Array
 * Recursive Factorial
 * Brackets Matcher
+* Baseball Game
 ## Contribution
 Your contributions by any means to the repo will be appreciated.
 

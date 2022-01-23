@@ -8,7 +8,7 @@
 
 TEST_CASE("Simple Factorial Test") {
     REQUIRE(factorial( 1) == 1);
-    REQUIRE(factorial(10) == 3'628'800);
+    REQUIRE(factorial(10) == 3628800);
     REQUIRE(factorial( 0) == 1);
 }
 
@@ -28,4 +28,10 @@ TEST_CASE ("Simple Brackets Matcher Test") {
 
     REQUIRE(areBracketsBalanced(expr1) == true);
     REQUIRE(areBracketsBalanced(expr2) == false);
+}
+
+TEST_CASE ("Baseball Game") {
+    std::vector<std::string> expr{"5", "2", "C", "D", "+"};
+    BaseballGame baseballGame;
+    REQUIRE(baseballGame.calPoints(expr) == 30);
 }
