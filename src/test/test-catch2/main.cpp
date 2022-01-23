@@ -3,8 +3,8 @@
 //
 
 #define CATCH_CONFIG_MAIN
-#include <catch2/catch.hpp>
-#include "../lib/cpp-practice.h"
+#include "catch2/catch.hpp"
+#include "../../lib/cpp-practice.h"
 
 TEST_CASE("Simple Factorial Test") {
     REQUIRE(factorial( 1) == 1);
@@ -34,4 +34,10 @@ TEST_CASE ("Baseball Game") {
     std::vector<std::string> expr{"5", "2", "C", "D", "+"};
     BaseballGame baseballGame;
     REQUIRE(baseballGame.calPoints(expr) == 30);
+}
+
+TEST_CASE ("TopK Frequent") {
+    std::vector<int> in{1, 2, 2, 3, 3, 4, 5};
+    TopK topK;
+    REQUIRE(topK.topKFrequent(in, 2) == std::vector<int>{2, 3});
 }

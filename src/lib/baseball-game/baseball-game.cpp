@@ -3,6 +3,7 @@
 //
 
 #include "baseball-game.h"
+#include <numeric>
 
 BaseballGame::BaseballGame(){};
 BaseballGame::~BaseballGame(){};
@@ -20,9 +21,14 @@ int BaseballGame::calPoints(const std::vector<std::string>& ops) {
             arr.push_back(arr[arr.size()-1] + arr[arr.size()-2]);
         }
     }
+
+    int sum = std::accumulate(arr.begin(), arr.end(), 0);
+    /*
     int sum = 0;
     for(auto i : arr) {
         sum += i;
     }
+    */
+
     return sum;
 }
