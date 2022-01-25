@@ -41,3 +41,12 @@ TEST_CASE ("TopK Frequent") {
     TopK topK;
     REQUIRE(topK.topKFrequent(in, 2) == std::vector<int>{2, 3});
 }
+
+TEST_CASE ("k-sorted array") {
+    int arr0[] = {3, 2, 1, 5, 6, 4};
+    int arr1[] = {13, 8, 10, 7, 15, 14, 12};
+
+    KSorted kSorted;
+    REQUIRE(kSorted.isKSortedArray(arr0, 6, 2) == "Yes");
+    REQUIRE(kSorted.isKSortedArray(arr1, 7, 1) == "No");
+}

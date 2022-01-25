@@ -5,6 +5,7 @@ This repo has `C++` example practices, and tests results by `Catch2/Doctest` Tes
 * Brackets Matcher
 * Baseball Game
 * Top K
+* K-Sorted Array
 ## Contribution
 Your contributions by any means to the repo will be appreciated.
 
