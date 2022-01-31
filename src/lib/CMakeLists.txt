@@ -10,6 +10,7 @@ set(SOURCE_FILES
         factorial.cpp
         bracket-matcher.cpp
         baseball-game/baseball-game.cpp
-        top-key/top-key.cpp)
+        top-key/top-key.cpp
+        letter-pyramid.cpp)
 
 add_library(${PROJECT_NAME} STATIC ${SOURCE_FILES} ${HEADER_FILES})

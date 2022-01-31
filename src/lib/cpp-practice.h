@@ -16,5 +16,6 @@
 bool isMonotonic(std::vector<int>& arr);
 int factorial(int n);
 bool areBracketsBalanced(std::string expr);
+bool letter_pyramid(std::string in_str);
 
 #endif //CPP_PRACTICE_H

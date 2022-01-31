@@ -50,3 +50,9 @@ TEST_CASE ("k-sorted array") {
     REQUIRE(kSorted.isKSortedArray(arr0, 6, 2) == "Yes");
     REQUIRE(kSorted.isKSortedArray(arr1, 7, 1) == "No");
 }
+
+TEST_CASE ("Letter Pyramid") {
+
+    std::string in_str {"ABCDEFG"};
+    REQUIRE(letter_pyramid(in_str) == true);
+}
