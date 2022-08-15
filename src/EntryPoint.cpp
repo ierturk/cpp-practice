@@ -1,8 +1,11 @@
 #include <iostream>
 
-#include "../lib/polymorphism/polymorphism.h"
+#include "polymorphism.h"
 
 int main(int argc, char **argv) {
+
+    (void) argc;
+    (void) argv;
 
     PMCTFuncOverload * p = new PMCTFuncOverload();
 

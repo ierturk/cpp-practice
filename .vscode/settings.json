@@ -1,5 +1,10 @@
 {
-    "files.associations": {
-        "iosfwd": "cpp"
-    }
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Volumes/Work/PROJs/cpp-practice",
+            "binaryPath": "/Volumes/Work/PROJs/cpp-practice/EntryPoint",
+            "binaryArgs": []
+        }
+    ]
 }
